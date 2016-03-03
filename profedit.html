@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Profile </title>
+	    <link href = "css/prof.css" rel = "stylesheet" type = "text/css">
+		<link rel="stylesheet" type="text/css" href="css/Sceleton.css">
+		<link href = "css/profedit.css" rel = "stylesheet" type = "text/css">
+		<script src = "js/profedit.js">
+		
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script	src = "js/profedit.js" ></script>
+		
+		
+		
+	</head>
+<body onload="loadDetails()">
+
+<div class="header">
+	
+	<div id="logo"> </div>
+	
+	<nav><ul>
+			<a href="Dashboard.html"><li class="active" >Dashboard</li></a>
+			<a href="Schedule.html" ><li >Schedule</li></a>
+			<a href="SearchAvail.html"><li>Search Avail</li></a>
+			<a href="Coworker.html"><li>Co-Workers</li></a>
+			<a href="prof1.html"><img src="img/corner.jpg" > </img></a>
+		</ul></nav>
+	
+	
+	</div>
+	
+	<div class="sidebar">
+		
+	<nav><ul>
+			<a href="Dashboard-inbox.html"><li  >Inbox</li></a>
+			<a href="prof1.html"  ><li class = "active">Profile</li></a>
+			<a href="Availability.html" ><li>Avalability</li></a>
+			<a href="Support.html"  ><li>Support</li></a>
+			<a href="Home Page.html" ><li>Logout</li></a>
+			
+		</ul></nav>
+	
+	
+	</div>
+<div id = background >
+
+<div class = details>
+
+<a id = oview href = "prof1.html">&nbsp &nbsp &nbsp &nbsp Overview  >>  &nbsp &nbsp &nbsp &nbsp</a>
+<a id = edprof href = "profedit.html">&nbsp  &nbsp &nbsp Edit Profile >> &nbsp &nbsp &nbsp </a>
+</div>	
+
+
+<div id = Editbg>
+ 
+<form id="EditForm" >
+			<ul style="list-style-type:none">
+			<li>
+			<div id="UName"><p>Name</p>	</div>
+			</li>
+			<li>
+			<div id="UserName"><input type = "text" id="Fname" placeholder= "Full Name"  autocomplete="off" style="color:#888;" tabindex = 1 autofocus>	</div>
+			</li>
+			<li>
+			<div id="Uline1"><p>________________________________________________________________________</p>	</div>
+			</li>			
+			<li>
+			<div id="Pwd"><p>Password</p>	</div>
+			</li>
+			<li>
+			<div id="Password"><input type = "password" id="Pword" placeholder = "Password" style="color:#888;" tabindex = 2 ></div>
+			</li>
+			<li>
+			<div id="Uline2"><p>________________________________________________________________________</p>	</div>
+			</li>
+			<li>
+			<div id="Eml"><p>Email</p>	</div>
+			</li>
+			<li>
+			<div id="EmailAddress"><input type="text" id="Em" placeholder= "EmailAddress" style="color:#888;" tabindex = 3 ></div>
+			</li>
+			<li>
+			<div id="Uline3"><p>________________________________________________________________________</p>	</div>
+			</li>
+			<li>
+			<div id="Addrs"><p>Address</p>	</div>
+			</li>
+			<li>
+			<div id="Address"><input type = "text" id="Addr" placeholder = "Address" style="color:#888;" tabindex = 5></div>
+			</li>
+			<li>
+			<div id="Uline4"><p>________________________________________________________________________</p>	</div>
+			</li>
+			<li>
+			<div id="Zcode"><p>Zip Code</p>	</div>
+			</li>
+			<li>
+			<div id="Zipcode"><input type = "text" id="Pin" placeholder = "Zipcode" style="color:#888;" tabindex = 6></div>
+			</li>
+			<li>
+			<div id="Uline5"><p>________________________________________________________________________</p>	</div>
+			</li>
+			<li>
+			<div id="Mnum"><p>Mobile number</p>	</div>
+			</li>
+				
+			<li>
+			<div id="MobileNumber"><input type = "tel" id="Mobil" placeholder= "mobile number" style="color:#888;" tabindex = 8></div>
+			</li> 
+			<li>
+			<div id="Uline6"><p>________________________________________________________________________</p>	</div>
+			</li>
+			
+			
+			<li><div id="Btn"><input type = "button" id="submit"  value="submit" onclick = loadDetails() tabindex = 10></div></li>
+			
+			</ul>
+			</form>
+	
+ 
+	</div>
+
+ 
+ 
+ 
+ <div id = cont>
+ <pre id = contdet>
+           Contact  
+</pre>		   
+ </div>
+ <div id = Namebanner>
+ <pre id = Name>
+                                 Edit Information           
+ </pre>
+ </div>
+ 
+ 
+ 
+</div>
+</body>	

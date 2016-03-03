@@ -1,0 +1,145 @@
+.SearchMenu {
+  font-family:helvetica; 
+  font-size:24px; 
+  color:#996600	; 
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+ 
+} 
+
+.SearchMenu{
+  margin: 3% auto;
+  width: 90%;
+  height: 70%;
+  
+	
+}
+.SearchMenu h3{
+  text-align: center;
+}
+
+.SearchMenu ul {
+  list-style-type:none;
+  position:absolute;
+  margin:3% 40%;
+}
+
+.SearchMenu li {
+  display:block;
+  z-index:1;
+  float:left;
+  position:absolute;
+  padding:5px;
+  transform:skewY(-10deg);
+  border:1px solid rgba(0,0,0,0.2);
+  box-shadow:-2px 2px 1px rgba(0,0,0,0.1);
+}
+
+	#one{
+  width:150px;
+  height:220px;
+  background:rgba(235,20,10,0.7);
+  left:15px;
+  top:10px;
+}
+
+#two{
+  width:160px;
+  height:150px;
+  background:rgba(185,40,40,0.7);
+  left:30px;
+  top:90px;
+}
+
+#three{
+  width:200px;
+  height:120px;
+  background:rgba(255,80,70,0.64);
+  left:45px;
+  top:130px;
+}
+
+#Four{
+  width:175px;
+  height:80px;
+  background:rgba(205,50,20,0.6);
+  top:185px;
+  left:60px;
+}
+
+.SearchMenu li:before{
+  content:"";
+  display:block;
+  position:absolute;
+  background:rgba(150,150,150,0.2);
+  width:inherit;
+  height:inherit;
+  transform:skewX(50deg);
+  transform-origin: 100% 100%;
+  bottom:0;
+  left:0;
+  z-index:-10;
+}
+
+#Menu{
+	margin: 0 auto;
+	width: 100%;
+	height: 350px;
+	position: relative;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.SearchMenu a:link, a:visited {
+color:#CCCC99		;
+
+}
+
+.SearchMenu li:hover
+{ 		
+	border: 1px solid #009900	;
+  transform: translate( -100px,20px) skewY(-10deg);
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+
+	/*height: 100%;
+	background:#880000 ;
+	font-size: 125%;
+	box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+  */
+}
+
+.SearchMenu .active   {	
+  border: 1px solid #009900;
+	transform: translate( -100px,20px) skewY(-10deg);
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	}	
+
+	#TimeInterval{
+	margin: 50px auto;
+	
+	width: 40%;
+	height: 30%;
+ 
+	
+}
+
+input {
+  border: 1px solid #ccc;
+  color: #888;
+  margin: 0.5em;
+  vertical-align: middle;
+  outline: 0;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  width: calc(100% - 3em - 2px);
+  font-family: sans-serif;
+}
+	
+	
+	

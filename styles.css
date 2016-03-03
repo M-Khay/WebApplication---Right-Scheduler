@@ -1,0 +1,316 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+
+	 position: fixed;
+	 left: 25%; 
+	 top: 100px; 
+	 width: 50%;
+	 height: 80%; 
+	 background: radial-gradient(circle, #D0D0D0 , #C0C0C0, #B0B0B0);
+	display: none;
+	z-index: 1500;
+	 } 
+
+	 
+	 
+	  #SignUp 
+{ 
+	 left: 20%; 
+	 top: 120px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 29px;
+	 z-index:27;
+ 
+	 
+	 } 
+	 
+	 #wrap{
+		 margin: 180px auto;
+		 width: 100%;
+		 height: 600px;
+		
+		 position: relative;
+		
+		 
+	 }
+	 #wrap ul{
+		 
+		 list-style: none;
+		 margin: 0 0;
+		 margin-left: 150PX;
+		  padding: 0;
+		 
+		 
+	 }
+	 
+	 #wrap ul li{
+		 
+		 float: left;
+		 display: inline;
+		 width: 300px;
+		 height: 40px;
+		
+		 margin-top: 30px;
+			margin-left:4%;
+		  position: relative;
+	 }
+	 
+	   #User 
+{ 
+	  
+	 top: 10px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 21px;
+	
+} 
+#UserName 
+{ 
+	 left: 10%; 
+	 
+	 position: absolute; 
+	 width: 77px;
+	 height: 10px;
+	 
+	
+	 } 
+ #Key 
+{ 
+	  
+	 top: 15PX; 
+	
+	 position: absolute; 
+	 width: 20px;
+	 height: 21px;
+	 
+} 
+
+#Password 
+{ 
+	 left: 10%; 
+	  
+	 position: absolute; 
+	 width: 69px;
+	 height: 11px;
+	
+}
+ #Email 
+{ 		
+	top: 15PX;  
+	 position: absolute; 
+	 width: 23px;
+	 height: 15px;
+	
+} 
+
+
+#EmailAddress 
+{ 
+	 left: 10%; 
+	 position: absolute; 
+	 width: 250px;
+	 height: 60px;
+	 
+     
+     
+} 
+
+ #Confirmemail 
+{ 
+	 top: 15PX; 
+	 position: absolute; 
+	 width: 23px;
+	 height: 19px;
+	 z-index:15;
+} 
+
+
+
+#ConfirmEmail 
+{ 	left: 10%;
+	 position: absolute; `
+	 width: 98px;
+	 height: 14px;
+	 
+}  
+	 
+ #Location 
+{ 
+	  top: 15PX; 
+	 position: absolute; 
+	 width: 16px;
+	 height: 21px;
+	 z-index:14;
+} 
+
+
+
+#Address 
+{ 
+	 left: 10%;
+	 position: absolute; 
+	 width: 59px;
+	 height: 11px;
+	 z-index:24;
+}	
+
+ #MailBox 
+{ 
+	 top: 15PX;
+	 position: absolute; 
+	 width: 18px;
+	 height: 21px;
+	
+	
+} 
+
+
+ #Zipcode 
+{ 
+	 left: 10%; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 14px;
+	
+}
+#Phone 
+{ 
+	  top: 15PX;
+	 position: absolute; 
+	 width: 19px;
+	 height: 18px;
+	 
+} 
+ #PhoneNumber 
+{ 
+	 left: 10%; 
+	 position: absolute; 
+	 width: 103px;
+	 height: 11px;
+	 
+} 
+ #mobile 
+{ 
+	 top: 15PX;
+	 position: absolute; 
+	 width: 13px;
+	 height: 21px;
+	
+	
+} 
+
+ 
+ #MobileNumber 
+{ 
+	  left: 10%;
+	 position: absolute; 
+	 width: 106px;
+	 height: 11px;
+} 
+
+#captcha
+{ 
+	left: 25px;
+	 position: absolute; 
+	 width: 178px;
+	 height: 140px;
+} 
+ #Bar 
+{ 	
+		top: 10px;
+	 left: 190px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 37px;
+	
+	
+} 
+
+
+ #Btn 
+{ 
+	 left: 10%;
+	 position: absolute; 
+	 width: 195px;
+	 height: 39px;
+	 z-index:8;
+	 
+} 
+
+
+
+
+	
+	 
+	 
+#signupbox{
+	
+	margin: 0 auto;
+		width: 80%;
+		height: 100%;
+		clear: both;	
+		top:0;
+		overflow: hidden;
+		
+	
+	
+}
+
+
+
+ 
+
+ 
+
+ 
+
+
+button
+{
+	 width:150px;
+     height:40px;
+	 background-color: #536DFE;
+	 color: white;
+	 font-family: lucida sans;
+	 font-size:150%;
+	 border-radius: 15px;
+     border:solid 0px white;
+	 
+}
+
+ #Signinnow 
+{ 
+	 left: 610px; 
+	 top: 535px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 18px;
+	 z-index:9;
+	
+} 
+
+ 
+
+
+ 
+input
+{
+	 width:250px;
+     height:40px;
+     border-radius: 8px;
+     border:solid 1px white; 
+	 padding : 5px;
+    
+}
+
+ 
+
+
+
+

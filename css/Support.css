@@ -1,0 +1,85 @@
+input
+{
+	 width:250px;
+     height:40px;
+     border-radius: 8px;
+     border:solid 1px #F0F0F0; 
+	 padding : 5px;
+    background-color : #F0F0F0 ;
+}
+
+
+#UserName 
+{ 
+	 left: 18%; 
+	 top: 20%; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 10px;
+	 z-index:26;
+	 
+	
+} 
+#UName 
+{ 
+	 left: 18%; 
+	 top: 17%; 
+	font-family : 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	 position: absolute; 
+	 font-size : 1vw;
+	
+}
+#Uline1
+{
+	left:16%;
+	top:11.25%;
+	position : absolute;
+	color: lightgrey;
+}
+
+#Subj
+{ 
+	 left: 18%; 
+	 top: 30.5%; 
+	 position: absolute; 
+	 width: 69px;
+	 height: 11px;
+	 z-index:22;
+}
+#Sub 
+{ 
+	 left: 18%; 
+	 top: 27.5%; 
+	font-family : 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	 position: absolute; 
+	 font-size : 1vw;
+	 
+}
+#Eml
+{ 
+	 left: 18%; 
+	 top: 37.5%; 
+	font-family : 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	 position: absolute; 
+	 font-size : 1vw;
+	 
+}
+
+#EmailAddress 
+{ 
+	 left:18%; 
+	 top: 40.5%; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 60px;
+	 z-index:25;
+	 width:120px;
+     
+     
+} 
+#Btn
+ {
+	 left : 18%;
+	 top : 65%;
+	 position:absolute;
+ }

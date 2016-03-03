@@ -1,0 +1,463 @@
+body{
+	margin:0;
+	padding:0;
+
+	}
+
+a{
+	text-decoration: none;
+}
+#bcg{
+	width:100%;
+	height: 800px;
+	background-image: url("calendar-background.jpg");
+	opacity: 0.3;
+	background-size: 100% 100%;
+	
+	
+}
+.First{
+	position:absolute;
+	width:100%;
+	height: 800px;
+	outline: none;
+	top:0;
+	overflow: hidden;
+	
+	}
+
+
+.conatiner
+{		position: relative;
+		margin: 0 auto;
+		width: 75%;
+		height: 100%;
+		clear: both;
+		/*border: 5px solid gray; */
+}
+.First img
+{	margin-top: 2%;
+	width: 350px;	
+	height: auto;
+	/*border: 5px solid red; */
+}
+#bar{
+	
+	position: absolute;
+	right: 0;
+	top:8%;
+	width: 420px;
+	height:75px;
+	/*border: 5px solid GRAY;*/
+}
+
+.square
+{	width: 200px;
+	height:45px;
+	padding-top: 17px;
+	text-align: center;
+}
+
+
+
+#getstarted{
+	position: absolute;
+	right: 0%;
+	background-color: #669900;
+	
+	/*	border: 1px solid black */
+	color: #FFFFFF;
+}
+
+#login{
+	position: absolute;
+	left:0;
+	border: 1px solid black
+}
+
+.First a{
+	font-size: 150%;	
+}
+
+
+
+/*------------------SIGNUP POP UP--------------------------*/
+	#pop_background{
+		position: fixed;
+	 width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background: #000;
+	 opacity: 0.8;
+	 z-index: 1000;
+	
+	display: none;
+	}
+	
+
+	/*
+	#pop_box{
+		position: absolute;
+		top: 250px;
+		background: #fff;
+		width:30%;
+		height: 400px;
+		margin: 100px 0 0 35%;
+		z-index: 1500;
+		display: none;
+	}
+	*/
+	.close{
+			cursor:pointer;
+			width: 20px;
+			height: 20px;
+			border: 1px solid #999;
+			border-radius: 50%;
+			
+			position: absolute;
+			top: 5px;
+			right: 7px;
+			
+			
+			border-radius: 50%;
+			
+			line-height:20px;
+			font-size: 30px;
+			
+			overflow: hidden;
+		
+	}
+	
+	
+	
+	
+	 #login_popup{ 
+	 position: fixed;
+	 margin: 0 auto;
+	 left: 25%; 
+	 top: 100px;
+	 width: 50%;
+	 height: 434px; 
+	 clear: both;
+	 background: radial-gradient(circle, #D0D0D0 , #C0C0C0, #B0B0B0);
+		z-index: 1500;
+		display: none;
+	 } 
+	 
+	 #loginform 
+{ 		
+		margin: 65px auto;
+		width: 35%;
+		
+	
+		clear: both;	 
+	
+	 
+	 } 
+	 
+	  #loginform h1{
+		  
+			text-align: center;
+			
+		  
+	  }
+	   #LoginInput{
+			margin: 10px 12%;
+		}
+	  #LoginPassword{
+			margin: 10px 12%;
+		}
+	  
+	 #loginSubmit{
+		 
+		margin: 10px 14%;
+		 
+	 }
+	 
+	 
+	 
+
+/*-----------------------------------------------------------------------*/
+
+#mainText{
+	
+	width:100%;
+	height: 250px;
+	margin-top: 17%;
+	text-align: center;
+/*	border: 5px solid red; */
+}
+.large {
+	font-size: 300%;
+		color: #585858 	;
+
+}
+.medium{
+	font-size: 200%;
+		color: #686868 	;
+
+}
+
+.Second{
+	
+	width:100%;
+	height: 450px;	
+	background-color: white;
+	overflow: hidden;
+	
+}
+
+
+#SecondTxt{
+	
+	position: absolute;
+	top: 25%;
+	width: 70%;
+	height: 100%;
+	text-align: right;
+	
+}
+
+#SecondTxt .large{
+	font-size: 250%;
+	color: #282828 ;
+	font-family: 'Algerian';
+	
+}
+#SecondTxt .medium{
+	font-size: 160%;
+	color:  #282828;
+	
+	font-family:'Helvetica';
+
+}
+#SecondImg{
+	
+	position: absolute;
+	right:0;
+	top: 15%;
+	width: 25%;
+	height: 100%;
+	
+	
+}
+#SecondImg img{ 
+width: 80%;
+	
+	
+}
+.Third{
+	
+	width:100%;
+	height: 850px;
+		overflow: hidden;
+	position: relative;
+	background: radial-gradient(circle, #009966, #006666, #003366); 
+}
+#ThirdImg{
+	
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	top:10%;
+	overflow: hidden;
+	
+	
+}
+
+#ThirdImg img{
+	
+	float:right;
+}
+#ThirdContainer{
+	width: 28%;
+	height: 100%;
+	position: absolute;
+	right:0;
+	padding-top: 3%;
+	padding-left: 2%;
+	background: linear-gradient(to left,#003333, #000033);
+	overflow: hidden;
+	
+}
+#ThirdContainer .large{
+	
+	color: #FFFFFF;
+}
+#ThirdContainer p{
+	
+	font-size: 140%;
+	font-family:'Harrington';
+	color: #FFFFFF;
+}
+
+.Fourth{
+	
+	width:100%;
+	height: 550px;	
+	overflow: hidden;
+	background: radial-gradient(circle,#F8F8F8 , #F0F0F0 , #E8E8E8);
+	
+}
+#FourthTxt{
+	
+	position: absolute;
+	
+	top: 26%;
+	left: 8%;
+	width: 55%;
+	height: 50%;
+	text-align: left;
+	
+}
+
+#FourthTxt .large{
+	font-size: 250%;
+	color: #282828 ;
+	font-family: 'Algerian';
+	
+}
+#FourthTxt .medium{
+	font-size: 160%;
+	color:  #282828;
+	font-family:'Helvetica';
+
+}
+
+#FourthImg{
+	
+	position: absolute;
+	
+	right:3%;
+	top: 6%;
+	width: 35%;
+	height: 65%;
+	
+	
+}
+#FourthImg img{ 
+width: 100%;
+	
+	
+	
+}
+/*------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1251px) and (max-width:1450px)
+{
+	.conatiner
+	{		
+		width: 90%;
+	}
+	.First img
+	{	
+	width: 280px;	
+	height: auto;
+	}
+	#ThirdImg
+	{
+	width: 80%;
+	left: 5%;
+	
+	}
+	#ThirdImg img{
+	width: 1000px;
+	height:auto;}
+	
+}
+
+@media only screen and (min-width: 850px) and (max-width:1251px)
+{
+	.conatiner
+	{		
+		width: 90%;
+	
+	}
+	.First img
+	{	
+	width: 200px;	
+	height: auto;
+	}
+	#ThirdImg
+	{
+	width: 80%;
+	left: 5%;
+	}
+	#ThirdImg img{
+	width: 800px;
+	height:auto;}
+	#mainText{
+		margin-top: 30%;
+		
+	}
+	
+}
+@media only screen and (max-width: 850px)
+{
+	.conatiner
+	{		
+		width: 90%;
+	
+	}
+	#bar{
+		top: 4%;
+		width: 220px;
+	height:175px;
+		
+	}
+	#getstarted{
+		top: 90px;
+		
+	}
+	#login{
+		position:absolute;
+		left: 20px;
+	}
+	.First img
+	{	
+	width: 200px;	
+	height: auto;
+	}
+	#ThirdImg
+	{
+	width: 80%;
+	left: 5%;
+	}
+	#ThirdImg img{
+	width: 800px;
+	height:auto;
+	}
+	#mainText{
+	
+	
+	margin-top: 37%;
+	text-align: center;
+	/*	border: 5px solid red; */
+	}
+	#SecondTxt{
+		top: 8%;
+		
+	}
+	#SecondImg{
+	
+	position: absolute;
+	right:0;
+	top: 35%;
+	width: 25%;
+	height: 60%;
+	}
+		#FourthTxt{
+			top: 15%;
+			
+		}
+	
+		#FourthImg
+		{
+		top: 35%;
+		width: 35%;
+		height: 45%;
+		}
+	
+}
+

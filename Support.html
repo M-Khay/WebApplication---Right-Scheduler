@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/Sceleton.css">
+		<link rel="stylesheet" type="text/css" href="css/Support.css">
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8"/>
+		<TITLE></TITLE>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"</script>
+		
+		
+		<script>
+		$(document).on("click", 'ul li', function(){
+    $('ul li').removeClass('active');
+    $(this).addClass('active');
+});
+		</script>
+	</head>
+
+	<body>
+		
+	
+	<div class="header">
+	
+	<div id="logo"> </div>
+	
+	<nav><ul>
+			<a href="Dashboard.html"><li class= >Dashboard</li></a>
+			<a href="Schedule.html" ><li >Schedule</li></a>
+			<a href="SearchAvail.html"><li>Search Avail</li></a>
+			<a href="Coworker.html"><li>Co-Workers</li></a>
+			
+			<a href="prof1.html"><img src="img/corner.jpg" > </img></a>
+			
+		</ul></nav>
+	
+	
+	</div>
+	
+	<div class="sidebar">
+		
+	<nav><ul>
+			<a href="Dashboard-inbox.html" ><li >Inbox</li></a>
+			<a href="prof1.html" ><li >Profile</li></a>
+			<a href="Availability.html" ><li>Avalability</li></a>
+			<a href="#" ><li>Support</li></a>
+			<a href="Home Page.html" ><li>Logout</li></a>
+			
+		</ul></nav>
+	
+	
+	</div>
+	<div id = supprt>
+	<form id="EditForm" >
+			<ul style="list-style-type:none">
+			<li>
+			<div id="UName"><p>Name</p>	</div>
+			</li>
+			<li>
+			<div id="UserName"><input type = "text" id="Fname" placeholder= "Full Name"  autocomplete="off" style="color:#888;" tabindex = 1 onfocus="inputFocus(this)" onblur="inputBlur(this)" autofocus>	</div>
+			</li>
+						
+			<li>
+			<div id="Sub"><p>Subject</p>	</div>
+			</li>
+			<li>
+			<div id="Subj"><input type = "text" id="subject" placeholder = "subject" style="color:#888;" tabindex = 2 onfocus="inputFocus(this)" onblur="inputBlur(this)"  ></div>
+			</li>
+			
+			<div id="Eml"><p>Comments</p>	</div>
+			</li>
+			<li>
+			<div id="EmailAddress"><input style = "width:400px;height:150px;" type="text area" id="Em" placeholder= "Comments" style="color:#888;" tabindex = 3 onfocus="inputFocus(this)" onblur="inputBlur(this)"  ></div>
+			</li>
+			
+			
+			<li><div id="Btn"><input type = "button" id="submit"  value="submit" onclick = loadDetails() tabindex = 10></div></li>
+			
+			</ul>
+			</form>
+	
+ 
+	</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	</body>
+	
+</html>

@@ -1,0 +1,16 @@
+#inbox{
+	position: absolute;
+	height: 30%;
+	width : 80%;
+	top :60px;
+	left : 250px;
+	margin : 20px 20px;
+	
+}
+
+#send_form {
+	position: fixed;
+    float: left;
+    left: 800px;
+    top: 100px;
+}

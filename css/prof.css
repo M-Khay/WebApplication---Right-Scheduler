@@ -1,0 +1,174 @@
+	
+html,body {
+	
+	margin: 0;
+	padding: 0;
+ }
+ #background 
+{ 
+	 position:absolute;
+	width:86.85%;
+	height:123%;
+	top:60px;
+	left:250px;
+		
+	
+	 
+	 background-image :  url('abc.jpg') ;	
+}
+
+.totaldetails
+{
+	background-color : #FAEBD7; 
+	left:5%;
+	top:0%;
+	position : absolute;
+	width:22%;
+	height:30%;
+	
+}
+
+.ProfImage
+{
+	
+	left: 13%;
+	top: 3%;
+	position : absolute;
+	width : 78%;
+	height : 88%;
+    
+	background-size : 100% 100%;
+	 box-shadow: 10px 10px 5px grey;
+		
+}
+.ProfImage img {
+	max-width:100%;
+	max-height:100%;
+	vertical-align: middle;
+    display: inline-block;
+}
+#cont
+{
+	left: 6%;
+	top: 38%;
+	position : absolute;
+	width : 20%;
+	height : 8%;
+	
+}
+#contdet
+{
+	font-family : Franklin Gothic Medium;
+	position : absolute;
+	margin : auto;
+	padding : 4%;
+	text-align : center;
+	font-size : 1.5vw;
+}
+
+
+.details
+{
+	background-color : #FAEBD7; 
+	left:5%;
+	top:30%;
+	position : absolute;
+	width:22%;
+	height:70%;
+	
+}
+#oview
+{
+    position: absolute;
+	left: 2%;
+	top : 25%;
+	font-family : Consolas;
+	font-size : 1.15vw;
+	text-decoration : none;
+	padding: 3%;
+	
+	border-bottom: 10px inset red;
+	border-top: 10px inset red;	
+	
+	
+}
+#edprof
+{
+    position: absolute;
+	left: 2%;
+	top : 40%;
+	font-family : Consolas;
+	font-size : 1.15vw;
+	text-decoration : none;
+	padding: 3%;
+	
+	border-bottom: 10px inset red;
+	border-top: 10px inset red;	
+}
+#Namebanner
+{
+	left:33%;
+	top : 0%;
+	position : absolute;
+	width : 60%;
+	height : 10%;
+	
+}
+#Name
+{
+	font-family : Franklin Gothic Medium;
+	position : absolute;
+	margin : auto;
+	padding : 4%;
+	text-align : center;
+	
+	font-size : 1.75vw;
+}
+
+#aboutme
+{
+	left: 33%;
+	top:12%;
+	position: absolute;
+	width:60%;
+	height:27%;
+	
+}
+tr {
+    text-align: left;
+}
+td
+{
+	padding : 0%;
+}
+#detfont
+{
+	position : absolute;
+	font-family : 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	position : absolute;
+	
+	text-align : center;
+	font-size : 1.2vw;
+	padding-top : 5%;
+}
+#AboutMe
+{
+	position: absolute;
+	font-family : Consolas;
+	padding-left : 2%;
+}
+#responsibilities
+{
+	top:45%;
+	left:33%;
+	position:absolute;
+	width:60%;
+	height:35%;
+	
+}
+#resp
+{
+	position: absolute;
+	font-family : Consolas;
+	padding-left : 2%;
+}

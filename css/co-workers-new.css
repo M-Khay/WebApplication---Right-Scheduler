@@ -1,0 +1,228 @@
+html {
+	overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	min-width: 100%;
+  	min-height: 100%;
+}
+.container {
+	background-color: #e6e6e6;
+	position: fixed;
+	overflow-y: scroll;
+	height: 100%;
+	width: 100%
+}
+
+#page-info-display {
+	width:85%;
+	height: 11%;
+	background-color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 1px;
+	padding-left: 5%;
+	padding-top: 3%;
+	background-color: #990000;
+}
+
+.effect {
+	position: relative;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.effect:before, .effect:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+} 
+.effect:after
+{
+    right:10px; 
+    left:auto; 
+    transform:skew(8deg) rotate(3deg);
+}
+
+.effect1 {
+	box-shadow: 0 10px 6px -6px #777;
+}
+
+.effect2 {
+	position: relative;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#page-info-display h2 {
+	margin: 0;
+	color: black;
+}
+
+#all-workplace-display {
+	position: relative;
+	width: 84%;
+	height: auto;
+	background-color: #f2f2f2;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	/*padding-bottom: 3%;*/
+	/*padding-left: 3%;
+	padding-bottom: 3%;*/
+	overflow: auto;
+}
+
+.workplace-name-employee-wrapper {
+	position: relative;
+	float: left;
+	width: 90%;
+	height: auto;
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+	margin-bottom: 10px;
+	overflow: initial;
+}
+
+.workplace-name-header {
+	position: relative;
+	width: 100%;
+	height: 8%;
+	/*padding: 2%;*/
+}
+
+.workplace-name-div{
+	height: 100%;
+	width: 60%;
+	float: left;
+}
+
+.workplace-name-div h2 {
+	width: 100%;
+	height: 95%;
+	margin: 0;
+	overflow: auto;
+}
+
+.toggle-button {
+	/*position: relative;*/
+	float: right;
+	width: 2vw;
+    height: 2vw;
+	/*margin: 1%;*/
+	margin-top: 2%;
+	margin-right: 8%;
+    border-radius:100vw;
+    background-color: #fff;
+    border: 1px solid black;
+    z-index: 1;
+}
+.toggle-button img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.toggle-button:hover {
+	cursor: hand;
+}
+
+.all-employee-display {
+	border-top: 2px outset #990000;
+	display: none;
+}
+
+.employee-details-display {
+	width: 28%;
+	height: 13%;
+	float: left;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	margin-right: 3%;
+	padding: 1%;
+}
+
+.image-name-wrapper {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0%;
+	margin: 0%;
+}
+
+.image-container {
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	margin-left: 1%;
+	/*font-size: 0px;*/
+}
+
+.dummy {
+	padding-top: 100%;
+}
+
+.employee-picture {
+	position: absolute;
+	overflow: auto;
+	/*width: 30%;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font: 0/0 a;
+}
+
+.centerer {
+	display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.employee-picture img {
+	max-width:100%;
+	max-height:100%;
+	vertical-align: middle;
+    display: inline-block;
+}
+
+.employee-name {
+	height: 100%;
+	position: relative;
+	width: 65%;
+	float: right;
+	/*margin-left: 2%;*/
+}
+
+.employee-name h3 {
+	width: 100%;
+	height: 95%;
+	margin: 0;
+	padding-top: 5%;
+	overflow: auto;
+}

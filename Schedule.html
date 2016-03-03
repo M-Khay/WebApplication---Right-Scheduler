@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+
+
+	<link rel="stylesheet" type="text/css" href="sss.css">
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<meta "charset=utf-8"/>
+		<TITLE></TITLE>
+		<script 
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	
+		<script>
+		$(document).on("click", 'ul li', function(){
+    $('ul li').removeClass('active');
+    $(this).addClass('active');
+});
+		</script>
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Event Calendar Demo - dhtmlxScheduler</title>
+	<meta name="description" content="This demo shows a simple JavaScript event calendar where the user can browse the events in Day, Week, Month, Year, or Agenda Views.">
+	<meta name="keywords" content="javascript, scheduler, event calendar, events calendar, event, calendar, ajax, google-like">	
+</head>
+	<script src="codebase/dhtmlxscheduler.js?v=4.1" type="text/javascript" charset="utf-8"></script>
+	<script src="codebase/ext/dhtmlxscheduler_year_view.js?v=4.1" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="codebase/dhtmlxscheduler.css?v=4.1" type="text/css" media="screen" title="no title" charset="utf-8">
+
+	
+<style type="text/css" media="screen">
+	html, body{
+		margin:0px;
+		padding:0px;
+		height:100%;
+		overflow:hidden;
+	}	
+	.dhx_cal_event_line.custom, .dhx_cal_event.custom div{
+		background-color:#fd7;
+		border-color:#da6;
+		color:#444;
+	}
+</style>
+
+<script type="text/javascript" charset="utf-8">
+	function init() {
+		window.resizeTo(950,700)
+		modSchedHeight();
+		scheduler.config.xml_date="%Y-%m-%d %H:%i";
+		scheduler.config.first_hour = 8;
+		scheduler.config.multi_day = true;
+		scheduler.config.date_step = "5"
+		scheduler.init('scheduler_here', new Date(2012, 07, 22));
+		scheduler.templates.event_class=function(s,e,ev){ return ev.custom?"custom":""; };
+		scheduler.load("./xml/events.xml?v=35");
+	}
+</script>
+
+<body onload="init();" onresize="modSchedHeight()">
+	
+	
+	
+	
+	
+	
+	<!-- info block 
+		href-prev
+		href-next
+		title
+		desc-short
+		desc-long
+-->
+    <style>
+        a img{
+            border: none;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+	<script>
+		function modSchedHeight(){
+			var headHeight = 100;
+			var sch = document.getElementById("scheduler_here");
+                        if (!sch) return;
+			sch.style.height = (parseInt(document.body.offsetHeight)-headHeight)+"px";
+			var contbox = document.getElementById("contbox");
+			contbox.style.width = (parseInt(document.body.offsetWidth)-300)+"px";
+		}
+	</script>
+	<div class="header">
+	
+	<div id="logo"> </div>
+	
+	<nav><ul>
+			<a href="Dashboard.html"><li >Dashboard</li></a>
+			<a href="Schedule.html" ><li  class="active">Schedule</li></a>
+			<a href="SearchAvail.html"><li>Search Avail</li></a>
+			<a href="Coworker.html"><li>Co-Workers</li></a>
+			<a href="prof1.html"><img src="img/corner.jpg" > </img></a>
+		</ul></nav>
+
+
+	
+	<!-- <div style="position: relative; height:95px;background-color:#3D3D3D;border-bottom:5px solid #828282;">-->
+		<!-- <a style="position: absolute; left: 25px; top: 22px; z-index: 10;" href="sample_mobile.shtml"><img src="images/btn-left.gif" alt="hell is here"></a>  -->
+		<div id="contbox" style="position: relative; padding: 22px 25px 0 75px; font: normal 17px Arial, Helvetica; color:white;">
+		
+			<div style="padding-left: 205px; min-width: 400px;">
+               
+    		
+            </div>
+		</div>
+	
+	<!-- </div> -->
+	<!-- end. info block -->
+    <ul>
+        <li>
+            <a></a>
+            <span></span>
+        </li>
+    </ul>
+
+	
+	<div id="scheduler_here" class="dhx_cal_container" style='width:90%;height:100%; margin: 0 auto'>
+		<div class="dhx_cal_navline">
+			<div class="dhx_cal_prev_button">&nbsp;</div>
+			<div class="dhx_cal_next_button">&nbsp;</div>
+			<div class="dhx_cal_today_button"></div>
+			<div class="dhx_cal_date"></div>
+			<div class="dhx_cal_tab" name="day_tab" style="right:332px;"></div>
+			<div class="dhx_cal_tab" name="week_tab" style="right:268px;"></div>
+			<div class="dhx_cal_tab" name="month_tab" style="right:204px;"></div>
+			<div class="dhx_cal_tab" name="year_tab" style="right:140px;"></div>
+		</div>
+		<div class="dhx_cal_header">
+		</div>
+		<div class="dhx_cal_data">
+		</div>		
+	</div>
+	</div>
+	
+</body>
